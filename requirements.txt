@@ -1,0 +1,13 @@
+fastapi
+sqlalchemy
+pytest
+flake8==4.0.1
+flake8-bugbear==22.1.11
+flake8-pie==0.15.0
+black
+isort
+mypy
+uvicorn
+aiosqlite
+httpx
+greenlet
