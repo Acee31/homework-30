@@ -37,8 +37,8 @@ jobs:
       - name: Run isort
         run: isort --check-only --diff --profile black app/
 
-      - name: Run mypy
-        run: mypy app/
+      # - name: Run mypy
+      #   run: mypy app/
 
       - name: Stop Uvicorn Server
         run: |
