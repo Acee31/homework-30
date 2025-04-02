@@ -59,7 +59,7 @@ async def recipe_with_id(
     if not res:
         raise HTTPException(status_code=404, detail=f"Рецепт с id - {id} не найден")
 
-    res.views = res.views + 1 # type: ignore
+    res.views = res.views + 1  # type: ignore
     await session.commit()
     return res
 
